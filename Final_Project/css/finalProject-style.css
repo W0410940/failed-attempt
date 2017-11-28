@@ -1,0 +1,13 @@
+html{
+    color: #fff;
+    text-align: center;
+}
+
+body{
+   background-color: aquamarine;
+}
+
+#headshot{
+    max-width:35px;
+    min-width: 35px;
+}
