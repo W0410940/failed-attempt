@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+html{
+	background: url(images/main_back.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+#nav { 
+	text-align: center; 
+	background: black;
+	opacity: .8;
+}
+
+#nav li {
+	list-style: none; display: inline-block;
+ }
+
+#nav a {
+	color: #fff; 
+	display: block;
+ 	font-family:arial; 
+ 	text-transform: uppercase; 
+ 	font-weight: bold; margin: 0; 
+ 	padding: 25px;
+  	text-decoration: none; 
+}
+
+#nav a:hover {
+	background-color: rgba(255,255,255,0.58); 
+	color: #000;
+ }
+
+
+
+#aboutbox{
+	width: 400px;
+	height: 505px;
+	background: black;
+	opacity: .9;
+	padding: 40px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: left;
+}
+
+#profile{
+	max-height: 195px;
+	max-width: 195px;
+	border-radius: 50%;
+	margin-left: 25.5%;
+}
+
+#aboutbox h1{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+	text-align: center;
+}
+
+#aboutbox h5{
+	text-align: center;
+}
+
+#aboutbox p{
+	font-weight: lighter;
+	font-size: 24px;
+	letter-spacing: 1;
+}
+
+#education{
+	width: 75%;
+	height: 400px;
+	background: black;
+	opacity: .8;
+	padding: 40px;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#education h1{
+	font-weight: 110;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+#education p{
+	font-weight: lighter;
+	font-size: 24px;
+	letter-spacing: 1;
+}
+
+footer{
+  background-color: rgba(255,255,255,0.4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  text-align: left;
+  margin-top: 180px;
+  margin-bottom: 0px;
+}
